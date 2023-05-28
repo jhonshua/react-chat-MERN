@@ -3,7 +3,7 @@ import {UserContextProvider} from "./UserContext";
 import Routes from "./Routes";
 
 function App() {
-  axios.defaults.baseURL = 'http://localhost:4000';
+  axios.defaults.baseURL = 'https://api-chat-mern-production.up.railway.app/';
   axios.defaults.withCredentials = true;
   return (
     <UserContextProvider>
